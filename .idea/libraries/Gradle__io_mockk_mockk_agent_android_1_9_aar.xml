@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: io.mockk:mockk-agent-android:1.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e45cb8caec1a19b13b1d20bf437aaf8c/mockk-agent-android-1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e45cb8caec1a19b13b1d20bf437aaf8c/mockk-agent-android-1.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e45cb8caec1a19b13b1d20bf437aaf8c/mockk-agent-android-1.9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-android/1.9/f3e3138cd1c60a3a992f22d723963f53ce91513f/mockk-agent-android-1.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-android/1.9/77249e4ddd092e3c0a2dc6db651b81309ecf6c5d/mockk-agent-android-1.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

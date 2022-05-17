@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.phelat:navigationresult:1.0.0-beta02@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/454fd24713efa401f8e2a8bb8d5fcc8f/navigationresult-1.0.0-beta02/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/454fd24713efa401f8e2a8bb8d5fcc8f/navigationresult-1.0.0-beta02/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/454fd24713efa401f8e2a8bb8d5fcc8f/navigationresult-1.0.0-beta02/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.phelat/navigationresult/1.0.0-beta02/6124d36347ea6993485ea1dd1bcd8de24a7a71b/navigationresult-1.0.0-beta02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
