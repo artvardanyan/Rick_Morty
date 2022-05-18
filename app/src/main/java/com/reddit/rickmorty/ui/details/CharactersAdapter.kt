@@ -11,6 +11,8 @@ import androidx.navigation.fragment.FragmentNavigator
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.reddit.rickmorty.Constants.DATA_VIEW_TYPE
+import com.reddit.rickmorty.Constants.FOOTER_VIEW_TYPE
 import com.reddit.rickmorty.R
 import com.reddit.rickmorty.databinding.ItemCharacterBinding
 import com.reddit.rickmorty.model.dto.CharacterDto
@@ -21,11 +23,6 @@ import java.io.IOException
 
 class CharactersAdapter(private val onCharacterClick: (CharacterDto, Navigator.Extras) -> Unit) :
     PagedListAdapter<CharacterDto, RecyclerView.ViewHolder>(CharacterDiff()) {
-
-    companion object {
-        private const val DATA_VIEW_TYPE = 1
-        private const val FOOTER_VIEW_TYPE = 2
-    }
 
     private var state: CharacterListState = CharacterListState.Loading
 
