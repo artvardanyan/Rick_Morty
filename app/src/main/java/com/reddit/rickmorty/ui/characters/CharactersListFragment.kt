@@ -19,8 +19,8 @@ class CharactersListFragment : Fragment() {
     private val viewModel: CharactersListViewModel by viewModel()
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
+            inflater: LayoutInflater, container: ViewGroup?,
+            savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragment_characters_list, container, false)
     }
@@ -28,7 +28,7 @@ class CharactersListFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         sharedElementEnterTransition = TransitionInflater.from(context)
-            .inflateTransition(android.R.transition.move)
+                .inflateTransition(android.R.transition.move)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -43,7 +43,6 @@ class CharactersListFragment : Fragment() {
 
         characterList.apply {
             this.adapter = adapter
-            //workaround for back animation
             postponeEnterTransition()
             viewTreeObserver.addOnPreDrawListener {
                 startPostponedEnterTransition()

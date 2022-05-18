@@ -29,7 +29,7 @@ class RickAndMortyApp : Application() {
 
         single<Retrofit> {
             Retrofit.Builder()
-                .baseUrl(getString(R.string.base_url))
+                .baseUrl(Constants.url)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
         }

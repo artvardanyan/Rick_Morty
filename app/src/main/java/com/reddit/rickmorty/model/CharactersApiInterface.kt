@@ -8,4 +8,5 @@ interface CharactersApiInterface {
 
     @GET("character")
     suspend fun getAllCharacters(@Query("page") page: Int? = null): ServerCharacterListResponse
+
 }
